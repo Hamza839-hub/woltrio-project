@@ -10,6 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.20.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.4",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
@@ -19,5 +26,18 @@
     "@vitejs/plugin-react": "^6.1.0",
     "oxlint": "^1.79.0",
     "vite": "^8.2.2"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamza839-hub/todo-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hamza839-hub/todo-list/issues"
+  },
+  "homepage": "https://github.com/Hamza839-hub/todo-list#readme"
 }
